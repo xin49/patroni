@@ -1,4 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T03:07:19.285Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vp_2cz9EgFSkxR2n9pAo" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T03:13:31.811Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5Bn9XwSzkEWUNUYk9PhD" version="21.7.2" type="github" pages="2">
+  <diagram id="lq6736zTe4cd_HC939j5" name="系统上下文">
+    <mxGraphModel dx="584" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="knS0cDq_Psqwf_nxolAt-1" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;RCDC&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="120" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-3" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;RCCPCangjie&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="360" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-3">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;Patroni&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="360" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-5">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;Kubernetes&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="580" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-12" value="Pod1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="305" width="230" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-13" value="Pod1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="302.5" width="230" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-14" value="Pod1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="302.5" width="300" height="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-7" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;PostgreSQL&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-14">
+          <mxGeometry x="25" y="60" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knS0cDq_Psqwf_nxolAt-15" value="WAL" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="knS0cDq_Psqwf_nxolAt-14">
+          <mxGeometry x="110" y="97.5" width="80" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="组件图" id="LBmL-ojdaAE_LHNN24SR">
     <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
