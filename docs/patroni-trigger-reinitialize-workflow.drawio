@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T09:37:57.864Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9Wl3ZMwnHgS-_5oPRNRI" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T09:40:29.739Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="N0PToK61pm6_nWsPzKlA" version="21.7.2" type="github">
   <diagram name="Page-1" id="Q1n0GrQfAmri5bY3HX5b">
     <mxGraphModel dx="3574" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -89,8 +89,11 @@
         <mxCell id="pgfmZBTP5lhDRD_lyDUS-27" value="&lt;span&gt;cluster is unhealthy&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2265" y="330" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pgfmZBTP5lhDRD_lyDUS-28" value="self has lock and in standby cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1970" y="260" width="240" height="30" as="geometry" />
+        <mxCell id="pgfmZBTP5lhDRD_lyDUS-28" value="healthiest member &amp;amp;&amp;amp; has lock &amp;amp;&amp;amp; in standby cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2040" y="240" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pgfmZBTP5lhDRD_lyDUS-30" value="healthiest member &amp;amp;&amp;amp; without lcok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1768" y="280" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
