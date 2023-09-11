@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T01:00:29.237Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZDuJS9q0rw2hk9qjbP0s" version="21.7.2" type="github">
-  <diagram name="Page-1" id="Q1n0GrQfAmri5bY3HX5b">
-    <mxGraphModel dx="3984" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-09-11T01:01:55.639Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IsLLQ9pm0sMj3WSERgzR" version="21.7.2" type="github">
+  <diagram name="patroni-auto-reinit-workflow" id="Q1n0GrQfAmri5bY3HX5b">
+    <mxGraphModel dx="3112" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,7 @@
         <mxCell id="pgfmZBTP5lhDRD_lyDUS-35" value="if self.is_standby_cluster() or not self.has_lock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1275" y="440" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pgfmZBTP5lhDRD_lyDUS-36" value="self._rewind.rewind_or_reinitialize_needed_and_possible &amp;amp;&amp;amp; \&lt;br&gt;self._rewind.enable_wal_waterline &amp;amp;&amp;amp; \&lt;br&gt;self._rewind.needed_reinitialized()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="pgfmZBTP5lhDRD_lyDUS-36" value="self._rewind.rewind_or_reinitialize_needed_and_possible &amp;amp;&amp;amp; \&lt;br&gt;&lt;i&gt;&lt;font color=&quot;#00ff80&quot;&gt;self._rewind.enable_wal_waterline &amp;amp;&amp;amp; \&lt;br&gt;self._rewind.needed_reinitialized()&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-865" y="310" width="440" height="60" as="geometry" />
         </mxCell>
       </root>
