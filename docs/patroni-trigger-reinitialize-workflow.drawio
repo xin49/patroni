@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:18:16.462Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RwdhZ7sgCUwcgUcw1yh0" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:20:15.618Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="p9UMMDbAQbb7vMlyLcku" version="21.7.4" type="github" pages="2">
   <diagram name="patroni-auto-reinit-workflow" id="Q1n0GrQfAmri5bY3HX5b">
     <mxGraphModel dx="3984" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -186,6 +186,12 @@
         </mxCell>
         <mxCell id="DO-1R3-RL2-TrxHVpDHi-1" value="if&amp;nbsp;self.state_handler.is_healthy() &amp;amp;&amp;amp;&amp;nbsp;cluster is healthy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3423" y="230" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IOzLG8IGFrinMKKZi_wB-1" value="executor busy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3283" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IOzLG8IGFrinMKKZi_wB-2" value="postgresql startup or pause" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3303" y="630" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
