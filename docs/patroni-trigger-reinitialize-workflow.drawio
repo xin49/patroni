@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:21:06.536Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="qBibaNiRzROk5ZTRtRcd" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:21:52.223Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="wgbwwnpdtf56wHL1mypK" version="21.7.4" type="github" pages="2">
   <diagram name="patroni-auto-reinit-workflow" id="Q1n0GrQfAmri5bY3HX5b">
     <mxGraphModel dx="3984" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -167,31 +167,46 @@
           <mxGeometry x="-2650" y="580" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OWO8mPOfkLDB-KDOCwWm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-34">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3110" y="395" />
+              <mxPoint x="-3110" y="85" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OWO8mPOfkLDB-KDOCwWm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-37">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3110" y="395" />
+              <mxPoint x="-3110" y="265" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OWO8mPOfkLDB-KDOCwWm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OWO8mPOfkLDB-KDOCwWm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-43">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3110" y="395" />
+              <mxPoint x="-3110" y="675" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OWO8mPOfkLDB-KDOCwWm-1" value="ha._run_cycle" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-3490" y="350" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="77t2u1vB-C4K7jkrTKL7-1" value="if not self.state_handler.is_healthy()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-3218" y="50" width="260" height="30" as="geometry" />
+          <mxGeometry x="-3270" y="50" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DO-1R3-RL2-TrxHVpDHi-1" value="if&amp;nbsp;self.state_handler.is_healthy() &amp;amp;&amp;amp;&amp;nbsp;cluster is healthy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-3438" y="230" width="380" height="30" as="geometry" />
+          <mxGeometry x="-3390" y="220" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IOzLG8IGFrinMKKZi_wB-1" value="executor busy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-3288" y="450" width="120" height="30" as="geometry" />
+          <mxGeometry x="-3130" y="440" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IOzLG8IGFrinMKKZi_wB-2" value="postgresql startup or pause" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-3313" y="630" width="210" height="30" as="geometry" />
+          <mxGeometry x="-3190" y="620" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
