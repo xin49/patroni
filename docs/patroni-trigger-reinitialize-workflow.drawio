@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:05:26.141Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ej-WUsSHmxZw-sDu2mdH" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:06:16.654Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fdUbDaU-VpXBDJxekUn4" version="21.7.4" type="github" pages="2">
   <diagram name="patroni-auto-reinit-workflow" id="Q1n0GrQfAmri5bY3HX5b">
     <mxGraphModel dx="3984" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,6 +123,12 @@
         <mxCell id="1" parent="0" />
         <mxCell id="9SF13A_BbTt8Zg2uvByu-12" value="self.dcs.update_leader(last_lsn, slots)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2010" y="310" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9SF13A_BbTt8Zg2uvByu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SF13A_BbTt8Zg2uvByu-32" target="9SF13A_BbTt8Zg2uvByu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SF13A_BbTt8Zg2uvByu-32" value="self.update_lock" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="310" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
