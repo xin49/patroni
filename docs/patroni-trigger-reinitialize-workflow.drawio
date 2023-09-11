@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:13:16.756Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PtD6s3fxbgcZwPuSEx_q" version="21.7.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:14:13.561Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hMjLo7ZcDmgKkDHuT27N" version="21.7.4" type="github" pages="2">
   <diagram name="patroni-auto-reinit-workflow" id="Q1n0GrQfAmri5bY3HX5b">
     <mxGraphModel dx="3984" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FhblrJBmdSMAkyIGJ9Fi" name="patroni-update-lock">
-    <mxGraphModel dx="4834" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5684" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,6 +165,21 @@
         </mxCell>
         <mxCell id="9SF13A_BbTt8Zg2uvByu-45" value="self.has_lock()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2645" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWO8mPOfkLDB-KDOCwWm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWO8mPOfkLDB-KDOCwWm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWO8mPOfkLDB-KDOCwWm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWO8mPOfkLDB-KDOCwWm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWO8mPOfkLDB-KDOCwWm-1" target="9SF13A_BbTt8Zg2uvByu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OWO8mPOfkLDB-KDOCwWm-1" value="ha._run_cycle" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-3490" y="350" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
