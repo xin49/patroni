@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T05:54:47.411Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="45hs_soHwi11N6NnD83J" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-18T05:55:29.910Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RfigVrfpuDhwyqtuzRQG" version="21.7.5" type="github" pages="5">
   <diagram name="patroni-auto-reinit-workflow" id="Q1n0GrQfAmri5bY3HX5b">
     <mxGraphModel dx="3984" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -264,8 +264,8 @@
         <mxCell id="T11v75PNMiFibA9D1hFX-10" value="1. keep physical slot lsn;&lt;br&gt;2. keep wal_keep_segment;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-2327.5" y="550" width="285" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="T11v75PNMiFibA9D1hFX-12" value="1.&amp;nbsp;XLOGfileslop" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-1335" y="795" width="120" height="60" as="geometry" />
+        <mxCell id="T11v75PNMiFibA9D1hFX-12" value="1.&amp;nbsp;XLOGfileslop in &lt;br&gt;(min_wal_size, max_wal_size)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-1407" y="790" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T11v75PNMiFibA9D1hFX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T11v75PNMiFibA9D1hFX-14" target="T11v75PNMiFibA9D1hFX-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
