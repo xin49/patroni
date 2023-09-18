@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T09:50:30.543Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IQEx1ara7SH8vgv-jMiI" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-18T09:51:52.900Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="X0NLN9T9Hny35HBj-AOr" version="21.7.5" type="github" pages="2">
   <diagram id="lq6736zTe4cd_HC939j5" name="系统上下文">
     <mxGraphModel dx="584" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -45,46 +45,8 @@
         <mxCell id="JMVt6wv3R27b1mW5U28i-3" value="数据库成员2（主成员）" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1590" y="250" width="460" height="237.5" as="geometry" />
         </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-4" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;PostgreSQL&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-3">
-          <mxGeometry x="25" y="60" width="215" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-5" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-4">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-6" value="WAL" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JMVt6wv3R27b1mW5U28i-3">
-          <mxGeometry x="40" y="120" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-7" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;Patroni&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-3">
-          <mxGeometry x="290" y="58.75" width="135" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-7">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="JMVt6wv3R27b1mW5U28i-9" value="数据库成员3（异步副本）" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2140" y="250" width="460" height="237.5" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;PostgreSQL&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-9">
-          <mxGeometry x="25" y="60" width="215" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-10">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-12" value="WAL" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JMVt6wv3R27b1mW5U28i-9">
-          <mxGeometry x="40" y="120" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-13" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;Patroni&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-9">
-          <mxGeometry x="290" y="58.75" width="135" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-14" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontStyle=1" vertex="1" parent="JMVt6wv3R27b1mW5U28i-13">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="JMVt6wv3R27b1mW5U28i-16" value="数据库集群状态" style="shape=note;size=20;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1750" y="590" width="160" height="100" as="geometry" />
@@ -99,8 +61,21 @@
             <mxPoint x="1290" y="165" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JMVt6wv3R27b1mW5U28i-37" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;labelBackgroundColor=#000000;" vertex="1" parent="1">
+        <mxCell id="JMVt6wv3R27b1mW5U28i-37" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="1310" y="360" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JMVt6wv3R27b1mW5U28i-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="JMVt6wv3R27b1mW5U28i-40" parent="1" source="JMVt6wv3R27b1mW5U28i-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMVt6wv3R27b1mW5U28i-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="JMVt6wv3R27b1mW5U28i-40" parent="1" source="knS0cDq_Psqwf_nxolAt-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMVt6wv3R27b1mW5U28i-40" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="520" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
