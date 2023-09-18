@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T09:54:19.808Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fKRjT1y5T233RByC03Ju" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-18T09:54:39.407Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Jcs2FUnz_aWQrdZV-mSd" version="21.7.5" type="github" pages="2">
   <diagram id="lq6736zTe4cd_HC939j5" name="系统上下文">
     <mxGraphModel dx="584" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -166,6 +166,19 @@
         </mxCell>
         <mxCell id="JMVt6wv3R27b1mW5U28i-64" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
           <mxGeometry x="2360" y="510" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JMVt6wv3R27b1mW5U28i-65" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="JMVt6wv3R27b1mW5U28i-67" parent="1" source="knS0cDq_Psqwf_nxolAt-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMVt6wv3R27b1mW5U28i-66" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" target="JMVt6wv3R27b1mW5U28i-67" parent="1" source="JMVt6wv3R27b1mW5U28i-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JMVt6wv3R27b1mW5U28i-67" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="190" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
